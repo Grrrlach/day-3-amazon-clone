@@ -1,0 +1,142 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#frame {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: flex-start;
+    max-width: 40%;
+}
+
+#container-logo {
+    max-width: 36px;
+    max-height: 18px;
+    color: gray;
+    }
+
+#container-login-window{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border: 1px;
+    border-color: lightgray;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: .7em;
+    border-style: solid;
+    padding: 10px;
+    font-family: "arial", "Helvetica Neue", Helvetica, Arial sans-serif;
+}
+
+input{
+    width: 100%;    
+}
+
+#sign-in-text{
+    font-size: 1.5em;
+}
+
+#email-top{
+    font-size: .8em;
+}
+
+#email-bottom{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+}
+
+#password-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+
+}
+
+#password-bottom {
+    display: flex;
+    font-size: .8em;
+    
+}
+
+#continue {
+    display:flex;
+    align-items: stretch;
+    text-align: center;
+    justify-items: center;
+
+}
+
+#continue-button{
+    font-size: .8em;
+    background-color: rgba(246, 188, 29, 0.781);
+
+}
+
+#container-login {
+    display:flex;
+    align-items: stretch;
+}
+
+
+#new-to-amazon{
+    display: flex;
+    font-size: .8em;
+    align-content: stretch;
+    justify-content: center;
+}
+
+h6 {
+    width: 100%; 
+    border-bottom: 5px solid #000; 
+    line-height: .1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h6 span { 
+     background:#fff; 
+     padding:0 10px;  
+ }
+
+#create-account{
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    font-family: "arial", "Helvetica Neue", Helvetica, Arial sans-serif;
+
+}
+
+#login {
+    border: 1px color black
+}
+
+.container {
+    border-style: solid;
+    border-color: lightgray transparent;
+    opacity 40%;
+    border-width: 1px;
+    display:flex;
+
+
+}
+
+#bottom-links{
+    font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
+    font-size: .7em;
+}
+
+#blank-space-baby{
+    height: 20px;
+}
+
+#bottom-text{
+    font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
+    font-size: .7em;
+    color: gray;
+    text-align: center;
+}
